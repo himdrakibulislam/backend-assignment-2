@@ -4,8 +4,8 @@
    "description": "",
    "main": "server.js",
    "scripts": {
-     
-      "start": "node index.js"
+      "start": "node server",
+      "dev": "nodemon server"
    },
    "dependencies": {
       "colors": "^1.4.0",
@@ -20,3 +20,5 @@
    "author": "",
    "license": "ISC"
 }
+
+
