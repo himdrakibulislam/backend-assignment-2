@@ -5,7 +5,7 @@ const colors = require("colors");
 const app = require("./app");
 
 // database connection
-mongoose.connect(process.env.DATABASE_MONGODB,{
+mongoose.connect(`mongodb+srv://Assignment:${process.env.DATABASE_PASSWORD}@cluster0.vrvp9pa.mongodb.net/?retryWrites=true&w=majority`,{
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
